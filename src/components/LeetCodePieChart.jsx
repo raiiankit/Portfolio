@@ -3,7 +3,7 @@ import { PieChart, Pie, Cell, Legend, Tooltip, ResponsiveContainer } from 'recha
 
 const COLORS = ['#4ade80', '#facc15', '#f87171'];
 
-const LeetCodePieChart = ({ easy, medium, hard }) => {
+const LeetcodePieChart = ({ easy, medium, hard }) => {
   const data = [
     { name: 'Easy', value: easy },
     { name: 'Medium', value: medium },

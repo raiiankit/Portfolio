@@ -1,10 +1,6 @@
 import React from "react";
 import useLeetCodeStats from "../components/useLeetCodeStats.jsx";
 import LeetcodePieChart from "../components/LeetcodePieChart.jsx";
-import { ResponsiveContainer } from "recharts";
-
-
-
 
 const About = () => {
   
