@@ -40,12 +40,12 @@ const Hero = () => {
           <Suspense fallback={<CanvasLoader />}>
             <PerspectiveCamera makeDefault position={[0, 2, 20]} />
 
-            <HeroCamera isMobile={isMobile}>
+            {/* <HeroCamera isMobile={isMobile}>
               <HackerRoom
                 position={sizes.deskPosition}
                 scale={sizes.deskScale}
               />
-            </HeroCamera>
+            </HeroCamera> */}
 
             <ambientLight intensity={1} />
             <directionalLight position={[10, 10, 10]} intensity={0.5} />

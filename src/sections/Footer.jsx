@@ -29,7 +29,7 @@ const Footer = () => {
         </a>
       </div>
 
-      <p className="text-white-500 w-full md:w-auto">© 2025 Shantanu Saraf</p>
+      <p className="text-white-500 w-full md:w-auto">© 2025 Ankit Rai</p>
     </footer>
   );
 };
