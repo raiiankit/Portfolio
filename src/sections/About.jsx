@@ -1,6 +1,6 @@
 import React from "react";
 import useLeetCodeStats from "../components/useLeetCodeStats";
-import LeetCodePieChart from "../components/Leetcodepiechart.jsx";
+import LeetcodePieChart from "../components/Leetcodepiechart.jsx";
 import { ResponsiveContainer } from "recharts";
 
 
@@ -13,16 +13,16 @@ const About = () => {
 
   return(
     <section className="c-space my-20" id="about">
-    <p className="head-text mb-[25px]">Know me</p>
+    <p className="head-text mb-[25px]">About me</p>
 
     <div className="grid xl:grid-cols-3 xl:grid-rows-2 md:grid-cols-2 grid-cols-1 gap-3 h-full bg-transparent">
       {/* First row: 1 : 2 */}
       <div className="col-span-1 row-span-1 ">
         <div className="grid-container bg-transparent">
           <img
-            src="/assets/map.jpeg"
+            src="/assets/pro.jpg"
             alt="grid-1"
-            className="w-full sm:h-[200px] h-52 object-contain brightness-75 opacity-80" />
+            className="w-200 sm:h-[200px] h-52 object-contain brightness-75 opacity-80 rounded-full" />
           <div>
             <p className="grid-headtext">
               Hi, I'm <span className="text-blue-300">Ankit </span>
@@ -142,7 +142,7 @@ const About = () => {
        <div>
             {stats ? (
               <div>
-            <LeetCodePieChart
+            <LeetcodePieChart
             
               easy={stats.easySolved} 
               medium={stats.mediumSolved} 
