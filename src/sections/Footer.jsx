@@ -21,7 +21,7 @@ const Footer = () => {
           <img src="/assets/twitter.svg" alt="twitter" className="w-5 h-5" />
         </a>
         <a
-          href="https://www.linkedin.com/in/shantanusaraf/"
+          href="https://www.linkedin.com/in/ankit-rai-454130223/"
           target="_blank"
           rel=" noreferrer"
         >

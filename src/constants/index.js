@@ -32,7 +32,7 @@ export const navLinks = [
 
 export const myProjects = [
   {
-    title: "Visual Converse Plus",
+    title: "StudySphere",
     desc: "A SaaS platform where users can generate dynamic content using AI tools like Image generation AI, Video generation AI, Code generation AI, Music generation AI, and Conversation AI. To generate unlimited content, a subscription model feature is implemented using Stripe.",
     subdesc:
       "This AI platform is built with Next.js, Tailwind CSS, and React.js. Prisma is used as a ORM to handle the data of user subscription and Api limit count",
@@ -66,7 +66,7 @@ export const myProjects = [
   },
 
   {
-    title: "Vidcore (Open Source)",
+    title: "Power Card",
     desc: "A complex backend system for a video streaming platform, handling API development and creating proper request handlers. Implemented middlewares like Multer and Cloudinary. Designed efficient database models with Mongoose, using advanced aggregation pipelines.",
     subdesc:
       "Built with Node.js, Express.js, and MongoDB, following proper industry-grade code practice and efficient data management",

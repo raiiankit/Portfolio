@@ -139,11 +139,15 @@ const About = () => {
           </p>
         </div>
        <div>
-       <div className="w-full h-[400px]">
-        
+       <div>
             {stats ? (
-              <div className="w-full max-w-md h-[300px]">
-            <LeetCodePieChart easy={50} medium={30} hard={20} />
+              <div>
+            <LeetCodePieChart 
+              easy={stats.easySolved} 
+              medium={stats.mediumSolved} 
+              hard={stats.hardSolved} 
+            />
+
             </div>
             ) : (
               <p className="text-gray-400 text-center">Loading LeetCode stats...</p>
@@ -155,9 +159,8 @@ const About = () => {
          
          </div>
         </div>
-      </div>
+    
 
-      <div className="col-span-1 row-span-1 grid-container flex flex-col items-center justify-center">
         <div className="text-center grid gap-9 ">
           <img
             src="/other-logos/connect.svg"
@@ -173,7 +176,7 @@ const About = () => {
           {/* Social Media Icons */}
           <div className="flex justify-center gap-12 mt-4">
             <a
-              href="https://www.linkedin.com/in/shantanusaraf/"
+              href="https://www.linkedin.com/in/ankit-rai-454130223/"
               target="_blank"
               rel=" noreferrer"
             >

@@ -7,7 +7,7 @@ import { useMediaQuery } from "react-responsive";
 import { calculateSizes } from "../constants/index.js";
 import HeroCamera from "../components/HeroCamera.jsx";
 import Button from "../components/Button.jsx";
-import pdf from "/assets/Shantanu_Saraf_Resume.pdf";
+import pdf from "/assets/Resume.pdf";
 import {
   ReactLogo,
   NodeLogo,

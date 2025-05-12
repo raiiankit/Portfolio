@@ -1,16 +1,18 @@
 import React, { useState } from "react";
+import { toast } from 'react-toastify';
 
 const Contact = () => {
   const [hasCopied, setHasCopied] = useState(false);
 
-  const handleCopy = () => {
-    navigator.clipboard.writeText("shantanusaraf4@gmail.com");
-    setHasCopied(true);
+  const submithandler = () => 
+  {
+    if(!namee)
+    {
+      toast.error("All Field Required!!")
+    }
+    toast.success("Message Sended Successfully!!")
+  }
 
-    setTimeout(() => {
-      setHasCopied(false);
-    }, 2000);
-  };
 
   return (
     <section className="c-space my-20 w-full" id="contact">
@@ -48,9 +50,9 @@ const Contact = () => {
           
             <div className="bg-white p-6 rounded-lg shadow-md">
              
-              <form className="space-y-4">
+              <form className="space-y-4" onSubmit={submithandler}>
                 <div>
-                  <label className="block text-gray-700 font-medium">Your Name</label>
+                  <label name = "namee" className="block text-gray-700 font-medium">Your Name</label>
                   <input type="text" className="w-full p-2 border border-gray-300 rounded-lg mt-1" placeholder="Enter your name" />
                 </div>
                 <div>

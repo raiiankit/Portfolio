@@ -7,6 +7,8 @@ import Projects from "./sections/Projects";
 import Contact from "./sections/Contact";
 import Footer from "./sections/Footer";
 import WorkExperience from "./sections/Experience";
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const App = () => {
   return (
@@ -21,6 +23,7 @@ const App = () => {
         <Contact />
         <Footer />
       </main>
+      <ToastContainer />
     </>
   );
 };
