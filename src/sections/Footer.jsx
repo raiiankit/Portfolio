@@ -7,7 +7,7 @@ const Footer = () => {
 
       <div className="flex gap-6 justify-center">
         <a
-          href="https://github.com/shantanu421"
+          href="https://github.com/raiiankit"
           target="_blank"
           rel=" noreferrer"
         >

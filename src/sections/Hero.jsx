@@ -25,13 +25,13 @@ const Hero = () => {
   return (
     <section className="min-h-screen w-full flex flex-col relative" id="home">
       <div className="w-full mx-auto flex flex-col sm:mt-36 mt-20 c-space gap-3">
-        <p className="sm:text-3xl mt-[-11px] text-2xl font-medium text-white text-center font-generalsans">
-          Hi! , I'm Ankit Rai
-        </p>
+        {/* <p className="sm:text-3xl mt-[-11px] text-2xl font-medium text-white text-center font-generalsans">
+          Hi ! , I'm Ankit Rai
+        </p> */}
 
         <p className="hero_tag text-gray_gradient">
-          Building <span className="text-blue-300">Frontend</span> &{" "}
-          <span className="text-green-300">Backend</span>
+        Crafting <span className="text-blue-300">Full-Stack</span> &{" "}
+          <span className="text-green-300">Web Experiences</span>
         </p>
       </div>
 

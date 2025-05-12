@@ -25,7 +25,7 @@ export const navLinks = [
   },
   {
     id: 5,
-    href: "https://github.com/shantanu421/portfolio-shantanu.git",
+    href: "https://github.com/raiiankit/Portfolio",
     type: "github",
   },
 ];
@@ -33,10 +33,10 @@ export const navLinks = [
 export const myProjects = [
   {
     title: "StudySphere",
-    desc: "A SaaS platform where users can generate dynamic content using AI tools like Image generation AI, Video generation AI, Code generation AI, Music generation AI, and Conversation AI. To generate unlimited content, a subscription model feature is implemented using Stripe.",
+    desc: "A powerful SaaS platform that enables users to generate dynamic content using advanced AI tools including image generation, video creation, code generation, music composition, and conversational AI. To unlock unlimited access, a subscription-based model is integrated using Stripe.",
     subdesc:
-      "This AI platform is built with Next.js, Tailwind CSS, and React.js. Prisma is used as a ORM to handle the data of user subscription and Api limit count",
-    href: "https://visual-converse-plus.vercel.app/",
+      "The platform is developed using Next.js, Tailwind CSS, and React.js. It uses Prisma as the ORM for managing user subscriptions and tracking API usage limits.",
+    href: "NA",
     githubHref: "https://github.com/shantanu421/visual-converse-plus.git",
     texture: "/textures/project/project1.png",
     logo: "/assets/project-logo1.png",
@@ -59,19 +59,19 @@ export const myProjects = [
       },
       {
         id: 4,
-        name: "Prisma",
-        path: "/assets/prisma.svg",
+        name: "Node js",
+        path: "/other-logos/node.svg",
       },
     ],
   },
 
   {
     title: "Power Card",
-    desc: "A complex backend system for a video streaming platform, handling API development and creating proper request handlers. Implemented middlewares like Multer and Cloudinary. Designed efficient database models with Mongoose, using advanced aggregation pipelines.",
+    desc: "A robust backend architecture built for a video streaming platform, featuring well-structured APIs, secure request handling, and optimized file uploads using Multer and Cloudinary. Integrated advanced Mongoose schemas and aggregation pipelines for efficient data processing.",
     subdesc:
-      "Built with Node.js, Express.js, and MongoDB, following proper industry-grade code practice and efficient data management",
+      "Developed using Node.js, Express.js, and MongoDB, with a focus on scalable code structure, modular design, and industry-level backend practices.",
     href: "NA",
-    githubHref: "https://github.com/shantanu421/vidcore.git",
+    githubHref: "https://github.com/raiankitsr/PowerCard",
     texture: "/textures/project/project2.png",
     logo: "/assets/open-source.svg",
     spotlight: "/assets/spotlight4.png",
@@ -83,8 +83,8 @@ export const myProjects = [
       },
       {
         id: 2,
-        name: "Express.js",
-        path: "/other-logos/express.svg",
+        name: "React.js",
+        path: "/assets/react.svg",
       },
       {
         id: 3,
@@ -149,8 +149,8 @@ export const workExperiences = [
     pos: "Software Engineer Intern",
     duration: "Jan 2025 - Present",
     title:
-      "Utilizing HTML, CSS, JavaScript, and React.js, delivered a number of modules and tasks that ensured responsive design and interactive user experiences.",
-    href: "https://businesswebsolutions.in/",
+    "Contributed to the development of responsive and interactive web modules using HTML, CSS, JavaScript, and React.js, enhancing user experience and interface consistency across projects.",
+    href: "https://bypeopletechnologies.com/",
     icon: "/assets/bws.png",
   },
 ];

@@ -142,11 +142,15 @@ const About = () => {
        <div>
             {stats ? (
               <div>
-            <LeetCodePieChart 
+            <LeetCodePieChart
+            
               easy={stats.easySolved} 
               medium={stats.mediumSolved} 
               hard={stats.hardSolved} 
             />
+             <h2 className="sm:text-2xl text-xl font-semibold sm:mt-0 mt-10 text-blue-200">
+                   Leetcode Stats
+          </h2>
 
             </div>
             ) : (
@@ -198,7 +202,7 @@ const About = () => {
             </a>
 
             <a
-              href="https://github.com/shantanu421"
+              href="https://github.com/raiiankit"
               target="_blank"
               rel=" noreferrer"
             >
