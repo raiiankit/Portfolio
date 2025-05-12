@@ -36,4 +36,4 @@ const LeetCodePieChart = ({ easy, medium, hard }) => {
   );
 };
 
-export default LeetCodePieChart;
+export default LeetcodePieChart;
