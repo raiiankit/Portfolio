@@ -1,7 +1,4 @@
-<h2 align="center">
-  3D Portfolio Website<br/>
-  <a href="https://shantanu-saraf.vercel.app/" target="_blank">shantanu.dev</a>
-</h2>
+
 
 
 <div align="center">
@@ -21,14 +18,14 @@
 <br/>
 
 
-( This portfolio is inspired by [Adrianhajdin](https://github.com/adrianhajdin) ).
+
 
 
 
 
 ## Fork It, Own It
 
-Feel free to fork, remix, and make this repo your own!  Just remember to give a little shoutout (a.k.a. proper credit) by linking back to [Shantanu421](https://github.com/shantanu421/portfolio-shantanu.git). Thanks!
+
 
 ## Technologies I've Used
 
