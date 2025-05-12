@@ -75,7 +75,7 @@ const Navbar = () => {
             href="/"
             className="text-blue-300 font-bold text-3xl transition-colors"
           >
-            Ss.
+            Ar.
           </a>
 
           <button

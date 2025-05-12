@@ -135,8 +135,8 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
-    name: "ExcelR",
-    pos: "Full Stack Trainee",
+    name: "Oasis Infobyte",
+    pos: "React Js",
     duration: "Feb 2024 - Oct 2024",
     title:
       "Worked on a full-stack application with Java, Spring Boot and Spring Security enabling role-based access control for employees and admins. Integrated REST APIs for handling complex data sets securely. Governed the backend data management with MySQL",
@@ -145,9 +145,9 @@ export const workExperiences = [
   },
   {
     id: 2,
-    name: "Business Web Solutions",
-    pos: "Full Stack Intern",
-    duration: "Jan 2023 - Mar 2023",
+    name: "bypeople Technologies",
+    pos: "Software Engineer Intern",
+    duration: "Jan 2025 - Present",
     title:
       "Utilizing HTML, CSS, JavaScript, and React.js, delivered a number of modules and tasks that ensured responsive design and interactive user experiences.",
     href: "https://businesswebsolutions.in/",

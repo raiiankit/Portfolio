@@ -1,6 +1,6 @@
 import { PerspectiveCamera } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
-import HackerRoom from "../components/HackerRoom";
+import DemoComputer from "../components/HackerRoom";
 import CanvasLoader from "../components/CanvasLoader";
 import { Suspense } from "react";
 import { useMediaQuery } from "react-responsive";
@@ -40,12 +40,12 @@ const Hero = () => {
           <Suspense fallback={<CanvasLoader />}>
             <PerspectiveCamera makeDefault position={[0, 2, 20]} />
 
-            {/* <HeroCamera isMobile={isMobile}>
-              <HackerRoom
+            <HeroCamera isMobile={isMobile}>
+              <DemoComputer
                 position={sizes.deskPosition}
                 scale={sizes.deskScale}
               />
-            </HeroCamera> */}
+            </HeroCamera>
 
             <ambientLight intensity={1} />
             <directionalLight position={[10, 10, 10]} intensity={0.5} />

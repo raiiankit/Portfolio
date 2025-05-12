@@ -15,7 +15,7 @@ const Contact = () => {
   return (
     <section className="c-space my-20 w-full" id="contact">
       <div className="flex items-center justify-center gap-4 relative">
-        <p className="head-text">Contact me</p>
+        <p className="head-text">GET IN TOUCH</p>
 
         <div className="relative w-[50px] h-[50px]">
           <img
@@ -27,35 +27,47 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className="flex flex-col md:flex-row items-center w-full sm:gap-48 gap-10 mt-6">
-        <div className="contactGrid-container sm:w-full">
-          <img
-            src="assets/grid4.png"
-            alt="grid-4"
-            className="w-full md:h-[126px] sm:h-[276px] h-28 object-contain sm:object-contain"
-          />
-
-          <div className="space-y-2 text-center">
-            <p className="grid-subtext2 sm:text-xl mb-4">
-              Hire me today and let us commence the process of achieving amazing
-              things!
-            </p>
-            <div
-              className="copy-container flex items-center justify-center gap-2 cursor-pointer"
-              onClick={handleCopy}
-            >
-              <img
-                src={hasCopied ? "assets/tick.svg" : "assets/copy.svg"}
-                alt="copy"
-                className="w-7 h-7"
-              />
-              <p className="lg:text-2xl md:text-xl text-xl text-gray_gradient text-white">
-                shantanusaraf4@gmail.com
+      <section className="py-16 px-6 max-w-5xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-8">
+          
+            <div className="bg-white p-6 rounded-lg shadow-md">
+              <h2 className="text-2xl font-bold mb-4">📞 Get in Touch</h2>
+              <p className="text-gray-700 mb-4">
+                Reach out to me via email, or by filling out the contact form.
               </p>
+              <ul className="space-y-3">
+                <li className="flex items-center gap-3">
+                  📧 <span className="text-gray-800 font-medium">raiankitsr@gmail.com</span>
+                </li>
+                <li className="flex items-center gap-3">
+                  📍 <span className="text-gray-800 font-medium">Ahmedabad , Science City</span>
+                </li>
+              </ul>
+            </div>
+  
+          
+            <div className="bg-white p-6 rounded-lg shadow-md">
+             
+              <form className="space-y-4">
+                <div>
+                  <label className="block text-gray-700 font-medium">Your Name</label>
+                  <input type="text" className="w-full p-2 border border-gray-300 rounded-lg mt-1" placeholder="Enter your name" />
+                </div>
+                <div>
+                  <label className="block text-gray-700 font-medium">Your Email</label>
+                  <input type="email" className="w-full p-2 border border-gray-300 rounded-lg mt-1" placeholder="Enter your email" />
+                </div>
+                <div>
+                  <label className="block text-gray-700 font-medium">Your Message</label>
+                  <textarea className="w-full p-2 border border-gray-300 rounded-lg mt-1" rows="4" placeholder="Write your message..."></textarea>
+                </div>
+                <button className="bg-blue-600 text-white px-4 py-2 rounded-lg font-bold text-lg hover:bg-blue-700 transition">
+                  Send Message
+                </button>
+              </form>
             </div>
           </div>
-        </div>
-      </div>
+        </section>
     </section>
   );
 };

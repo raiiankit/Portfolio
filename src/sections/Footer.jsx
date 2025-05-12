@@ -14,7 +14,7 @@ const Footer = () => {
           <img src="/assets/github.svg" alt="github" className="w-5 h-5" />
         </a>
         <a
-          href="https://x.com/shantanu_saraf"
+          href="https://x.com/raiankit09"
           target="_blank"
           rel=" noreferrer"
         >
