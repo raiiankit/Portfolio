@@ -6,20 +6,7 @@ require("dotenv").config();
 const app = express();
 
 // Middleware
-const allowedOrigins = [
-  "http://localhost:5173",
-  "https://your-frontend-domain.com" // change this to your actual deployed URL
-];
-
-app.use(cors({
-  origin: function (origin, callback) {
-    if (!origin || allowedOrigins.includes(origin)) {
-      callback(null, true);
-    } else {
-      callback(new Error("Not allowed by CORS"));
-    }
-  },
-}));
+app.use(cors());       // **allow everything** during debugging
 app.use(express.json()); // preferred over body-parser now
 
 // MongoDB Connection
