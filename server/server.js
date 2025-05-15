@@ -5,9 +5,12 @@ require("dotenv").config();
 
 const app = express();
 
-// Middleware
-app.use(cors());       // **allow everything** during debugging
-app.use(express.json()); // preferred over body-parser now
+
+
+app.use(cors({
+  origin: ["https://raiankitsr.vercel.app"],
+}));  
+app.use(express.json()); 
 
 // MongoDB Connection
 mongoose.connect("mongodb+srv://raiankitsr:LSIokaGr2eYQVe3Q@cluster0.lw46zw0.mongodb.net/?retryWrites=true&w=majority&appName=Contact", {
