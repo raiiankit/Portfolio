@@ -1,6 +1,6 @@
 import React from "react";
 import useLeetCodeStats from "../components/useLeetCodeStats.jsx";
-import LeetcodePieChart from "../components/leetcodePieChart.jsx";
+// import LeetcodePieChart from "../components/leetcodePieChart.jsx";
 
 const About = () => {
   
@@ -134,7 +134,7 @@ const About = () => {
           </p>
         </div>
        <div>
-       <div>
+       {/* <div>
             {stats ? (
               <div>
             <LeetcodePieChart
@@ -151,7 +151,7 @@ const About = () => {
             ) : (
               <p className="text-gray-400 text-center">Loading LeetCode stats...</p>
             )}
-        </div>  
+        </div>   */}
          
          
          
