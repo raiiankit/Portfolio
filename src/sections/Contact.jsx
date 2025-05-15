@@ -32,7 +32,7 @@ const Contact = () => {
       const data = await response.json();
   
       if (response.ok) {
-        toast.success("Message Sent & Saved Successfully!");
+        toast.success("Message Sent Successfully!");
         console.log(data);
         setFormData({ name: "", email: "", message: "" });
       } else {
@@ -117,7 +117,7 @@ const Contact = () => {
                   onChange={changehandler}
                   placeholder="Write your message..."></textarea>
                 </div>
-                <button className="bg-blue-600 text-white px-4 py-2 rounded-lg font-bold text-lg hover:bg-red-700 transition hover:text-black-500">
+                <button className="bg-black-600 text-white px-4 py-2 rounded-lg font-bold text-lg hover:bg-white-700  hover:text-black-500 transition-all">
                   Send Message
                 </button>
               </form>

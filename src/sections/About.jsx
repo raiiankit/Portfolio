@@ -24,15 +24,14 @@ const About = () => {
               Hi, I'm <span className="text-blue-300">Ankit </span>
             </p>
             <p className="grid-subtext">
-              I love to design and develop Frontend and Backend. Being a{" "}
-              <span className="text-blue-300">Fullstack developer</span>, I
-              think it's a beautiful combination of creativity and logic. As a
-              fresher, I am eagerly looking forward to working professionally
-              and creating{" "}
-              <span className="text-blue-300">impactful features</span> for
-              the products that will significantly increase the{" "}
-              <span className="text-blue-300">company's profit</span>.
+              I'm passionate about crafting seamless digital experiences by 
+              combining design and technology. As a <span className="text-blue-300">Full Stack Developer
+              </span>, I believe in building intuitive solutions that balance both functionality and aesthetic appeal. 
+              Although I'm at the beginning of my professional journey, I'm driven to contribute innovative ideas and deliver 
+              <span className="text-blue-300">high-impact features</span> that can transform products and drive 
+              <span className="text-blue-300">business success</span>.
             </p>
+
           </div>
         </div>
       </div>

@@ -95,7 +95,7 @@ const Projects = () => {
             <div
               className={`flex items-center gap-7 sm:mt-1 mt-4 sm:mr-5 animatedGitHub animatedCheckDemo ${
                 currentProject.githubHref ===
-                "https://github.com/shantanu421/vidcore.git"
+                "https://github.com/raiiankit/StudySphere"
                   ? "mt-0 mr-[300px]"
                   : ""
               }`}

@@ -10,7 +10,7 @@ app.use(cors({ origin: "http://localhost:5173" }));
 app.use(express.json()); // preferred over body-parser now
 
 // MongoDB Connection
-mongoose.connect("mongodb://localhost:27017/contact", {
+mongoose.connect("mongodb+srv://raiankitsr:LSIokaGr2eYQVe3Q@cluster0.lw46zw0.mongodb.net/?retryWrites=true&w=majority&appName=Contact", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })

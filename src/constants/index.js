@@ -37,7 +37,7 @@ export const myProjects = [
     subdesc:
       "The platform is developed using Next.js, Tailwind CSS, and React.js. It uses Prisma as the ORM for managing user subscriptions and tracking API usage limits.",
     href: "NA",
-    githubHref: "https://github.com/shantanu421/visual-converse-plus.git",
+    githubHref: "https://github.com/raiiankit/StudySphere",
     texture: "/textures/project/project1.png",
     logo: "/assets/project-logo1.png",
     spotlight: "/assets/spotlight1.png",
@@ -95,32 +95,21 @@ export const myProjects = [
   },
 
   {
-    title: "CarePulse",
-    desc: "A healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.",
-    subdesc:
-      "CarePulse integrates complex forms and SMS notifications by using Next.js,  Appwrite, and Twilio. Appwrite is used for handling the data of patients records and appointment schedules.",
-    href: "https://carepulse-healthcare-platform.vercel.app/",
-    githubHref: "https://github.com/shantanu421/healthcare_platform.git",
+    title: "Ticket Booking Service - SpringBoot",
+    desc: "A ticket booking platform built to manage and streamline event reservations efficiently. It enables users to browse events, book tickets, and receive confirmations, ensuring a smooth and intuitive booking experience.",
+    subdesc: "This application is developed using Spring Boot, with RESTful APIs for handling booking requests, user management, and event listings. It ensures secure transactions and real-time ticket availability tracking.",
+    href: "NA",
+    githubHref: "https://github.com/raiiankit/Ticket-Booking-Service",
 
     texture: "/textures/project/project3.png",
-    logo: "/assets/project-logo3.png",
+    logo: "/assets/spring.jpeg",
     spotlight: "/assets/spotlight3.png",
     tags: [
       {
         id: 1,
-        name: "Next.js",
-        path: "assets/nextjs.svg",
-      },
-      {
-        id: 2,
-        name: "TailwindCSS",
-        path: "/assets/tailwindcss.png",
-      },
-      {
-        id: 3,
-        name: "Appwrite",
-        path: "/assets/appwrite.png",
-      },
+        name: "Spring Boot",
+        path: "/assets/spring-.svg",
+      }
     ],
   },
 ];
