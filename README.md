@@ -2,7 +2,7 @@
 
 
 <div align="center">
-
+https://github.com/raiiankit/Portfolio/blob/main/README.md
 </div>
 
 <br/>
@@ -38,30 +38,9 @@
 - Vite
 - Tailwind CSS
 
-## Features
 
-✨ **A stylish glass design, Bento-Style Bio**
 
- 🖥️ **Explore live demos within a 3D computer, switching between projects effortlessly**
 
- 🎨 **Each component features a modern design**
-
- 📱 **Fully Responsive**
-
- ## 🛠️ Usage Instructions
- Create your own slick 3D portfolio:
-
- 1. Clone this repository.
-
- 2. Run ``npm install`` to grab all dependencies.
-
- 3. Open the project folder, then navigate to ``src/constants/index.js`` and ``src/sections``. Inside, you'll find all of the details that you can customize. Edit the information to make it uniquely yours!
-
- 4. Run ``npm start`` to start the development server.
-
- ## Show your support
-
- Give a ⭐ if you like my work on this website <3
 
 
 
