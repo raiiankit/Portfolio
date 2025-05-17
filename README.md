@@ -1,9 +1,6 @@
 
 
 
-<div align="center">
-https://github.com/raiiankit/Portfolio/blob/main/README.md
-</div>
 
 <br/>
 
